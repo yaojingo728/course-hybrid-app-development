@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        #banner{
+            width:400px;
+            height:200px;
+            position:relative;
+            overflow: hidden;
+            margin-left:20px auto;
+        }
+        #img{
+            width: 1200px;
+            height: 200px;
+            position: absolute;
+        }
+        #img li{
+            width: 400px;
+            height: 200px;
+            float: left;
+        }
+        #img li img{
+            width:600px;
+            height:250px;
+        }
+    </style>
+    <script src="animate.js"></script>
+</head>
+<body>
+    <div id="banner">
+        <ul id="img">
+            <li><img src="images/banner_01.jpg" alt=""></li>
+            <li><img src="images/banner_02.jpg" alt=""></li>
+            <li><img src="images/banner_03.jpg" alt=""></li>
+            <li><img src="images/banner_04.jpg" alt=""></li>
+            <li><img src="images/banner_05.jpg" alt=""></li>
+        </ul>
+    </div>
+    <script>
+        window.onload = function(){
+            var banner = document.getElementById("banner");
+            var i=0;
+            var imgs = banner.children;
+            setInterval(auto,3000);
+            function auto(){
+               banner.animate({marginLeft:"-400px"},200,function(){
+                   this.css({marginLeft:"0"});
+                   imgs[0].remove().clone(true).appenTo(this);
+               });
+            }
+        }
+    </script>
+</body>
+</html>
