@@ -1,0 +1,87 @@
+<div class="all">
+    <span class="span">
+      <a [routerLink]="['/home']">首页 </a> /
+      <a [routerLink]="['/course']"> 基础知识&实用工具 </a> /
+      <a [routerLink]="['/course',lesson.id]"> {{lesson?.lessonName}} </a> /
+       课程介绍
+    </span>
+    <div class="video">
+      <p>课程介绍（上）</p>
+      <video src="{{lesson?.src}}" width="320" height="240" controls></video>
+      <ul class="menu">
+        <li class="title">课程目录</li>
+        <li>1.课程说明（上）</li>
+        <li>2.课程说明（下）</li>
+        <li>3.第一章</li>
+        <li>4.第二章</li>
+        <li>5.第三章</li>
+      </ul>
+    </div>
+    <div class="div">
+      <div class="guanzhu">
+        <p class="txt">Github是什么？学习Github的理由，以及课程安排等。</p>
+        <span>
+          <p class="add">+</p>
+          <p>关注</p>
+        </span>
+      </div>
+      <div class="question">
+        <p>技术问答:<p>
+          <table>
+            <tr>
+                  <td style="border:1px solid #ccc">
+                    <ul class="word">
+                      <li><img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1697014114,773612396&fm=26&gp=0.jpg" alt=""></li>
+                      <li><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539530674769&di=dd1f14bdde94c42586340f031e08fda8&imgtype=0&src=http%3A%2F%2Fwww.happyfamilynet.com%2Fdownload%2Fbaby%2Fhappyface3.JPG" alt=""></li>
+                      <li><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539530642004&di=ee1af4e284728d522f320877292c6ae0&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F8b82b9014a90f6030bf82b6c3212b31bb051ed55.jpg" alt=""></li>
+                      <li><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539530726324&di=0ba36a71b0940e9a1d7a048720131e40&imgtype=0&src=http%3A%2F%2Fimg.52lishi.com%2Fpic%2F201306%2F26%2F5f2ffa0425.png" alt=""></li>
+                      <li><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539530746802&di=9bcfc1b65976987ed3554b6ba5e6afe4&imgtype=0&src=http%3A%2F%2Fimg.article.pchome.net%2F00%2F38%2F45%2F64%2Fpic_lib%2Fs960x639%2Fe1d1e7fd2dea08851bcb69ed664dddd7s960x639.JPG" alt=""></li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                      <div class="but">
+                          <span>#添加话题#</span>
+                          <p>提问</p>
+                        </div>
+                  </td>
+                </tr>
+          </table>
+      </div>
+      <div class="study">
+        <span>正在学习人数：{{lesson?.sperson}}</span>
+        <div class="per">
+            <span>
+              <img src="http://www.edu2act.net/static/img/m.png" alt="">
+              <p>2班-姚静</p>
+            </span>
+            <span>
+              <img src="http://www.edu2act.net/static/img/m.png" alt="">
+              <p>2班-姚静</p>
+            </span>
+            <span>
+              <img src="http://www.edu2act.net/static/img/m.png" alt="">
+               <p>2班-姚静</p>
+            </span>
+            <span>
+              <img src="http://www.edu2act.net/static/img/m.png" alt="">
+              <p>2班-姚静</p>
+            </span>
+            <span>
+              <img src="http://www.edu2act.net/static/img/m.png" alt="">
+              <p>2班-姚静</p>
+            </span>
+            <span>
+              <img src="http://www.edu2act.net/static/img/m.png" alt="">
+              <p>2班-姚静</p>
+            </span>
+        </div>
+      </div>
+    </div>
+</div>

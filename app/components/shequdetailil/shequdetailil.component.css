@@ -1,0 +1,42 @@
+.all{
+    width: 800px;
+    height: 1500px;
+    margin:20px 200px;
+}
+.img img{
+    width:800px;
+    height: 300px;
+}
+.name{
+    width: 800px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.person{
+    width: 800px;
+    height: 50px;
+    margin-top: 20px;
+}
+.person img{
+    width: 30px;
+    height: 30px;
+    border-radius: 500px;
+    float: left;
+}
+.person div{
+    height: 30px;
+    width: 750px;
+    line-height: 30px;
+    margin-left: 5px;
+    float: left;
+    color:#ccc;
+}
+.person div p{
+   float: right;
+}
+.contain{
+    width: 800px;
+    text-indent: 20px;
+    line-height: 30px;
+}

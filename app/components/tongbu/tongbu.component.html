@@ -1,0 +1,23 @@
+<div class="container">
+  <ul>
+    <li *ngFor="let course of courses;">
+      <div class="li">
+        <a [routerLink]="['/tongbu',course.id]">
+          <img src="{{course.images}}" alt="">
+          <p>{{course.courseName}}</p>
+          <div class="down">
+            <span>
+              <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3599739414,3938709328&fm=200&gp=0.jpg" alt="">
+              <p>{{course.task}}</p>
+            </span>
+            <span>
+              <img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=316511559,3703266679&fm=200&gp=0.jpg" alt="">
+              <p>{{course.person}}</p>
+            </span>
+            <button>+申请</button>
+          </div>
+        </a>
+      </div>
+    </li>
+  </ul>
+</div>

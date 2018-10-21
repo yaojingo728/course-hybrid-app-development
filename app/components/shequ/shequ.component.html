@@ -1,0 +1,39 @@
+<div class="all">
+    <ul class="ul">
+      <li *ngFor="let shequ of shequs">
+        <div class="contain">
+          <div class="id">
+            <img src="{{shequ.head}}" alt="">
+          </div>
+          <div class="course">
+            <div class="img"><img src="{{shequ.img}}" alt=""></div>
+            <div class="name">
+              <a [routerLink]="['/shequ',shequ.id]"><p>· {{shequ.name}}</p></a>
+              <span>{{shequ.contain}}</span>
+            </div>
+          </div>
+          <div class="person">
+            <span class="apan1">{{shequ.fabuname}} · {{shequ.time}}</span>
+            <span class="span2">阅读量{{shequ.read}}|评论{{shequ.write}}</span>
+            <span class="span3"><hr></span>
+          </div>
+          
+        </div>
+        
+      </li>
+    </ul>
+    <div class="hot">
+      <span>热门话题</span>
+      <hr>
+      <ul>
+        <li><div><span id="txt"># 2015级程序设计基#</span><span id="num">6万</span></div></li>
+        <li><div><span id="txt"># 2015级程序设计基#</span><span id="num">6万</span></div></li>
+        <li><div><span id="txt"># 2015级程序设计基#</span><span id="num">6万</span></div></li>
+        <li><div><span id="txt"># 2015级程序设计基#</span><span id="num">6万</span></div></li>
+        <li><div><span id="txt"># 2015级程序设计基#</span><span id="num">6万</span></div></li>
+        <li><div><span id="txt"># 2015级程序设计基#</span><span id="num">6万</span></div></li>
+        <li><div><span id="txt"># 2015级程序设计基#</span><span id="num">6万</span></div></li>
+        <li><div><span id="txt"># 2015级程序设计基#</span><span id="num">6万</span></div></li>
+      </ul>
+    </div>
+</div>

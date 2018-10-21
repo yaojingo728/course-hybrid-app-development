@@ -1,0 +1,122 @@
+.top{
+    position: relative;
+}
+.left{
+    width:200px;
+    height: 800px;
+}
+.person{
+    width: 200px;
+    height: 300px;
+    margin:50px 100px;
+}
+.person img{
+    width: 150px;
+    height: 150px;
+    margin:10px 30px;
+}
+.person span{
+    width: 200px;
+    height: 30xp;
+    margin:10px 10px;
+    text-align: center;
+}
+.contain{
+    width: 200px;
+    height: 500px;
+    margin:50px 100px;
+}
+.contain a li{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+.contain a li:hover{
+   color:rgb(247, 81, 24);
+}
+.contain img{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.contain p{
+    width:130px;
+    height: 30px;
+    float: left;
+}
+.right{
+    float: right;
+    width: 750px;
+    height: 300px;
+    position: absolute;
+    top:10px;
+    right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.06) 2px 2px 20px 0px;
+    padding: 25px;
+}
+ul li{
+    float: left;
+    margin:10px;
+}
+.search{
+    float: right;
+    margin:10px 10px;
+}
+.hr{
+    float: left;
+    width: 750px;
+}
+.work{
+    width: 750px;
+    height: 100px;
+    padding:10px;
+    margin-top: 50px;
+    border-bottom: 0.5px solid #eee;
+}
+.work img{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.txt{
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+.name{
+    width: 200px;
+    height: 50px;
+    line-height: 30px;
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.name:hover{
+    color:orangered;
+}
+.txt span{
+    width: 80px;
+    height: 30px;
+    float: left;
+    margin-top:10px;
+    color:#ccc;
+}
+.txt span img{
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px;
+}
+.score{
+    width:100px;
+    height:95px;
+    float: right;
+    border:3px solid rgba(247, 81, 24,0.5);
+    border-radius: 100px;
+}
+.score p{
+    width: 50px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    color:orangered;
+}

@@ -1,0 +1,114 @@
+.all{
+    height: 1000px;
+    width: 1000px;
+    margin-left: 50px;
+}
+.ul{
+    float: left;
+    width: 750px;
+    margin-top: 0px;
+}
+.contain{
+    float: left;
+    width:750px;
+    height:120px;
+    margin-top: 10px;
+    position: relative;
+}
+.id{
+    width:50px;
+    height:200px;
+    float: left;
+}
+.id img{
+    width:40px;
+    height:40px;
+    margin:10px;
+    border-radius:100px
+}
+.course{
+    width:750px;
+    height: 80px;
+}
+.img{
+    float: left;
+    width:120px;
+    height:80px;
+    margin:5px;
+    border:1px solid #eee;
+    padding:3px;
+}
+.img img{
+    width:120px;
+    height:80px;
+}
+.name{
+    width: 500px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+}
+.name a p{
+    float: left;
+    width:350px;
+    height: 30px;
+    line-height: 30px;
+    color:black;
+}
+.name a p:hover{
+    float: left;
+    width:350px;
+    height: 30px;
+    line-height: 30px;
+    color:orange;
+}
+.name span{
+    float: left;
+    margin-top: 5px;
+    width:500px;
+    height:50px;
+    color:#777;
+    font-size: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.person{
+    width: 650px;
+    height: 20px;
+    color:#ccc;
+    margin-left: 20px;
+    font-size: 13px;
+    position: relative;
+}
+.span1{
+    position: absolute;
+    left: 5px;
+}
+.span2{
+    position: absolute;
+    right: 10px;
+}
+.person hr{
+    width: 600px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.hot{
+    width:250px;
+    float: right;
+    margin-top:30px;
+}
+.hot hr{
+    margin:5px 0;
+}
+.hot ul li{
+    margin:5px 0;
+}
+.hot ul li{
+    font-size: 13px;
+    line-height: 20px;
+}
+#num{
+    color:#ccc;
+    float: right;
+}

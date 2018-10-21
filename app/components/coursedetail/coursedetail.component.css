@@ -1,0 +1,168 @@
+.all{
+    height: 1000px;
+    width: 1100px;
+}
+.span{
+    height:50px;
+    line-height: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 13px;
+    color:#ccc;
+}
+.span a{
+    color:orangered;
+}
+.video{
+    width: 1100px;
+}
+.video p{
+    height: 30px;
+    width: 300px;
+    line-height: 30px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.video video{
+    width:700px;
+    height:350px;
+    margin-left: 100px;
+    background-color: black;
+}
+.menu{
+    width: 300px;
+    height: 350px;
+    background-color: #333;
+    color:#ccc;
+    float: right;
+}
+.title{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    margin:20px 0;
+}
+.menu li{
+    width: 250px;
+    height:30px;
+    margin-left: 50px;
+}
+.div{
+    width:1000px;
+    margin-left:100px;
+    margin-top:50px;
+    position: relative;
+}
+.guanzhu{
+    float: left;
+    width:700px;
+    height: 100px;
+    border:1px solid #ccc;
+    position: relative;
+}
+.txt{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 30px;
+}
+.guanzhu span{
+    position: absolute;
+    right:20px;
+    bottom:20px;
+}
+.guanzhu span p{
+    float: left;
+}
+.add{
+    font-weight: bolder;
+    font-size: 15px;
+    color:orangered;
+}
+.question{
+    float: left;
+    width:600px;
+    height: 300px;
+}
+.question p{
+    float: left;
+    height: 10px;
+    width: 600px;
+    margin-top: 15px;
+}
+.table{
+    float: left;
+    width: 700px;
+}
+.word li{
+    float:left;
+    margin-left: 2px;
+    margin-right: 30px;
+}
+.word li img{
+    height: 15px;
+    width: 15px;
+}
+input{
+    width:700px;
+    height:100px;
+}
+.but{
+    width:700px;
+    height: 30px;
+    margin-top: 10px;
+}
+.but span{
+    margin-left: 5px;
+    color: #ccc;
+    float: left;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.but p{
+    width: 35px;
+    height: 20px;
+    float: right;
+    background-color: rgb(247, 81, 24);
+    border-radius: 3px;
+    color: #fff;
+}
+.study{
+    width:200px;
+    height:320px;
+    border:1px solid #ccc;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.study span{
+    height: 15px;
+    margin-left:5px;
+}
+.study ul{
+    margin-left:5px;
+}
+studt ul li{
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+}
+.per span{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.per span img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px; 
+    border-radius: 100px;
+}
+.per span p{
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    overflow: hidden;
+}
