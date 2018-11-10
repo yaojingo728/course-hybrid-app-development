@@ -1,0 +1,116 @@
+page-jiajv {
+    ion-header ion-navbar{
+        background-color: orange;
+        position:relative;
+        height: 75px;
+        font-size: 20px;
+    }
+    ion-header ion-navbar button{
+       border:no-border;
+    }
+    .search-button{
+       position: absolute;
+       right: 15px;
+    }
+
+    .navlist{
+        padding-left: 0;
+        margin:0;
+    }
+    .navlist li{
+        width: 25%;
+        height: 44px;
+        line-height: 44px;
+        text-align: center;
+        float: left;
+        list-style:none;
+    }
+    .litwo{
+        border-bottom: 2px solid orange;
+    }
+
+    .slides-pic{
+        padding: 0;
+        margin:0;
+        height: 160px;
+    }
+    .slides-pic img{
+        width: 100%;
+        height: 160px;
+    }
+
+    .fenlei{
+        margin-top:60px;
+        height: 100px;
+       
+    }
+    .fenlei li{
+        width: 30%;
+        height: 100px;
+        list-style: none;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 100px;
+        float: left;
+        margin-left:2%;
+        background-size: 100% 100%;
+       color:#fff;
+    }
+    .fenlei .first{
+        background-image: url(../../assets/imgs/2-01_03.png);
+    }
+    .fenlei .second{
+        background-image: url(../../assets/imgs/2-01_04.png);
+    }
+    .fenlei .third{
+        background-image: url(../../assets/imgs/2_01_07.png);
+    }
+    
+    .txt{
+        padding:0;
+        width: 100%;
+        height: 50px;
+        background-image: url(../../assets/imgs/2-bg_03.png);
+        background-size: 100% 100%;
+        text-align: center;
+        line-height: 5px;
+    }
+
+    .goods{
+        padding: 0;
+        img{
+            width: 100%;
+        }
+        li{
+            position: relative;
+            width: 45%;
+            float: left;
+            margin: 5px 0 5px 3%;
+            span{
+                display: block;
+                width: 26px;
+                height: 26px;
+                text-align: center;
+                line-height: 26px;
+                border-radius: 50%;
+                color: red;
+                position: absolute;
+                background: #fff;
+                right: 15px;
+                bottom: 25px;
+            }
+            p{
+                position: absolute;
+                width: 100%;
+                bottom:4px;
+                margin: 0;
+                color: #fff;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                background-color:rgba(0,0,0,0.5);
+            }
+        }
+    }
+
+}

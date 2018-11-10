@@ -1,0 +1,26 @@
+page-b {
+    ion-header{
+        text-align: center;
+    }
+    ion-content{
+        background: url(../../assets/imgs/bg.png);
+        background-size: over;
+        .box{
+            ion-item{
+                background:transparent;
+                color:#fff;
+                ::-webkit-input-placeholder {
+                    color: #fff;
+                }
+            }
+            button{
+                margin-top: 30px;
+                color:#fff;
+            }
+            p{
+                color:#fff!important;
+                text-align: center;
+            }
+        }
+    }
+}
