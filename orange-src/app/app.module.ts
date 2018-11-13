@@ -4,7 +4,6 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { MinePage } from '../pages/mine/mine';
@@ -13,8 +12,10 @@ import { BPage } from '../pages/b/b';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { ComponentsModule } from '../components/components.module';
-import { JiajvPage } from '../pages/jiajv/jiajv';
 import { LingganPage } from '../pages/linggan/linggan';
+import { StorePage } from '../pages/store/store';
+import { AddPage } from '../pages/add/add';
+import { JiahaoPage } from '../pages/jiahao/jiahao';
 
 
 
@@ -23,13 +24,14 @@ import { LingganPage } from '../pages/linggan/linggan';
   declarations: [
     MyApp,
     AboutPage,
-    ContactPage,
     HomePage,
     TabsPage,
     MinePage,
     BPage,
-    JiajvPage,
-    LingganPage
+    LingganPage,
+    StorePage,
+    AddPage,
+    JiahaoPage
   ],
   imports: [
     BrowserModule,
@@ -43,13 +45,14 @@ import { LingganPage } from '../pages/linggan/linggan';
   entryComponents: [
     MyApp,
     AboutPage,
-    ContactPage,
     HomePage,
     TabsPage,
     MinePage,
     BPage,
-    JiajvPage,
-    LingganPage
+    LingganPage,
+    StorePage,
+    AddPage,
+    JiahaoPage
   ],
   providers: [
     StatusBar,

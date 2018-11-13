@@ -1,16 +1,23 @@
-import { Component, ViewChild } from '@angular/core';
-import { NavController } from 'ionic-angular';
-import { JiajvPage } from '../jiajv/jiajv';
+import { Component} from '@angular/core';
+import { NavController} from 'ionic-angular';
+
+
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
-  constructor(public navCtrl: NavController) {
 
+  isActive=0;
+  change(i){
+    this.isActive=i;
   }
-  goSub(){
-    this.navCtrl.push(JiajvPage);
+
+  constructor(public navCtrl: NavController) {
+    
   }
+
+  
+  
 }

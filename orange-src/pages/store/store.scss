@@ -1,3 +1,72 @@
 page-store {
+    ion-input{
+        width: 90%;
+        height: 30px;
+        color:#999;
+        border:0.5px solid #ccc;
+        background-color: #ddd;
+        border-radius: 3px;
+        margin:10px 5%;
+    }
 
+    .navList{
+        list-style: none;
+        padding-left: 0!important;
+        margin: 0;
+        height: 44px;
+        line-height: 44px;
+        .first{
+            background-color:#ffdb2c;
+        }
+        li{
+            height: 44px;
+            text-align: center;
+            float: left;
+            width: 20%;
+        }
+    }
+
+    .txt{
+        width: 100%;
+        text-align: center;
+        margin:5px 0;
+    }
+    .txt ion-icon{
+        float: right;
+        margin-right: 5%;
+    }
+
+    .list ul{
+        padding:0;
+        margin:0;
+    }
+    .list ul li{
+        list-style: none;
+        width: 44%;
+        height: 170px;
+        float: left;
+        margin: 2px 3%;
+        background-size: 100% 100%;
+    } 
+    .list ul li span{
+        width: 100%;
+        height: 70px;
+        margin-top: 100px;
+        color: #fff;
+        text-align: center;
+        background-color:rgba(153, 153, 153, 0.5);
+    }
+    .li-fir{
+         background:url(../../assets/imgs/3_05.png);
+    }
+    .li-sec{
+        background:url(../../assets/imgs/3_07.png);
+   }
+   .li-thr{
+    background:url(../../assets/imgs/3_09.png);
+}
+    .li-for{
+        background:url(../../assets/imgs/3_11.png);
+    }
+   
 }

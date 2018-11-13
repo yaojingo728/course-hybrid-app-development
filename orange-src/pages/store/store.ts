@@ -15,6 +15,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class StorePage {
 
+  isActive=0;
+  change(i){
+    this.isActive=i;
+  }
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
